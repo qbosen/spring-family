@@ -24,7 +24,7 @@ private String appName; // 注入配置属性: application.properties
 private double randomNumber; //注入表达式结果
 
 @Value("#{beanInject.another}")
-private String fromAnotherBean; // 注入其他Bean属性：注入beanInject对象的属性another，类具体定义见下面
+private String fromAnotherBean; // 注入其他Bean属性：注入beanInject对象的属性another
 
 @Value("classpath:com/hry/spring/configinject/config.txt")
 private Resource resourceFile; // 注入文件资源
