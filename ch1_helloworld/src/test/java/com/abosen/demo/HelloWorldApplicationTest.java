@@ -30,7 +30,7 @@ public class HelloWorldApplicationTest {
     /*
      * webEnvironment=RANDOM_PORT 启动一个随意端口的Tomcat
      * @LocalServerPort 自动注入随机端口
-     * @TestRestTemlpate Spring boot 提供一个TestRestTemplate，作为 Http Client
+     * @TestRestTemplate Spring boot 提供一个TestRestTemplate，作为 Http Client
      * 存在启动Tomcat的开销
      */
     @LocalServerPort
