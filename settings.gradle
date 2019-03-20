@@ -1,4 +1,5 @@
 rootProject.name = 'spring'
 include 'ch0101_helloworld'
 include 'ch0201_datasource-demo'
+include 'ch0202_multi-datasource-demo'
 
