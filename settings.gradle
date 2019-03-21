@@ -3,4 +3,5 @@ include 'ch0101_helloworld'
 include 'ch0201_datasource-demo'
 include 'ch0202_multi-datasource-demo'
 include 'ch0203_druid-demo'
+include 'ch0204_simple-jdbc-demo'
 
