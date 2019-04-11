@@ -7,4 +7,5 @@ include 'ch0204_simple-jdbc-demo'
 include 'ch0205_programmatic-transaction-demo'
 include 'ch0206_declarative-transaction-demo'
 include 'ch0207_errorcode-demo'
+include 'ch0301_jpa-demo'
 
