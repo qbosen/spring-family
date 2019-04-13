@@ -1,0 +1,4 @@
+mybatis:
+  type-handlers-package: com.abosen.spring.data.mybatisdemo.handler
+  configuration:
+    map-underscore-to-camel-case: true
