@@ -23,5 +23,5 @@ public interface CoffeeMapper {
             // map-underscore-to-camel-case = true 可以实现一样的效果
             // @Result(column = "update_time", property = "updateTime"),
     })
-    Coffee findById(@Param("id") Long id);
+    Coffee findById(@Param("id") Long id);// @Param 注解表明 参数id 对应 #{id}
 }

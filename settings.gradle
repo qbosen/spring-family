@@ -10,4 +10,5 @@ include 'ch0207_errorcode-demo'
 include 'ch0301_jpa-demo'
 include 'ch0302_jpa-complex-demo'
 include 'ch0303_mybatis-demo'
+include 'ch0304_mybatis-generator-demo'
 
