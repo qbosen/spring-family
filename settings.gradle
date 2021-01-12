@@ -11,4 +11,6 @@ include 'ch0301_jpa-demo'
 include 'ch0302_jpa-complex-demo'
 include 'ch0303_mybatis-demo'
 include 'ch0304_mybatis-generator-demo'
+include 'ch04:mongo-demo'
+//findProject(':ch04:mongo-demo')?.name = 'mongo-demo'
 
