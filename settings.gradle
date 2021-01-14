@@ -13,4 +13,5 @@ include 'ch0303_mybatis-demo'
 include 'ch0304_mybatis-generator-demo'
 include 'ch04:mongo-demo'
 include 'ch04:mongo-repository-demo'
+include 'ch04:jedis-demo'
 
