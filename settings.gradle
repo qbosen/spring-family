@@ -14,4 +14,6 @@ include 'ch0304_mybatis-generator-demo'
 include 'ch04:mongo-demo'
 include 'ch04:mongo-repository-demo'
 include 'ch04:jedis-demo'
+include 'ch04:cache-with-redis-demo'
+findProject(':ch04:cache-with-redis-demo')?.name = 'cache-with-redis-demo'
 
