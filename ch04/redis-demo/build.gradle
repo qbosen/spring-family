@@ -1,19 +1,9 @@
-plugins {
-    id 'java'
-}
-
-group 'com.abosen'
-version '1.0-SNAPSHOT'
-
-repositories {
-    mavenCentral()
-}
-
 dependencies {
-    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.6.0'
-    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine'
-}
-
-test {
-    useJUnitPlatform()
+    implementation 'org.springframework.boot:spring-boot-starter'
+    implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+    implementation 'org.springframework.boot:spring-boot-starter-data-redis'
+    implementation 'org.joda:joda-money:1.0.1'
+    runtime 'com.h2database:h2:1.4.199'
+    implementation 'redis.clients:jedis:3.4.1'
+    implementation 'org.jadira.usertype:usertype.core:6.0.1.GA'
 }
